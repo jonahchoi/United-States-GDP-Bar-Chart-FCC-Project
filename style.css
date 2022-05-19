@@ -1,0 +1,36 @@
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 98vh; 
+  overflow: hidden;
+  background:rgba(178, 190, 195,1.0);
+  font-family:Verdana, sans-serif;
+}
+#title{
+  text-align:center;
+}
+svg{
+  border: 1px solid black;
+  text-align:center;
+  padding: 20px;
+  box-shadow: 2px 2px 5px black;
+  background:rgba(223, 230, 233,1.0);
+}
+.bar{
+  fill: rgba(0, 206, 201,1.0);
+  
+}
+.bar:hover{
+  fill: rgba(0, 206, 201,0.5);
+}
+
+#tooltip{
+  border: solid;
+  border-radius:3px;
+  background: rgba(178, 190, 195,1.0);
+  padding: 2px;
+  pointer-events: none;
+  text-align:center;
+  width:150px;
+}
